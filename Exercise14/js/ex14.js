@@ -7,5 +7,5 @@ if (!isNaN(givenNum)) {
         alert(`${givenNum} is odd`);
     }
 } else {
-    console.log("Please, introduce a valid number");
+    alert("Please, introduce a valid number");
 }
