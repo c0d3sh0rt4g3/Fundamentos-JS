@@ -1,4 +1,4 @@
-const givenNum = Number(prompt("Introduce a wholes number to know its factorial"))
+const givenNum = Number(prompt("Introduce a whole number to know its factorial"))
 
 if (!isNaN(givenNum) && Number(givenNum) % 1 === 0 ){
     let factorial = 1

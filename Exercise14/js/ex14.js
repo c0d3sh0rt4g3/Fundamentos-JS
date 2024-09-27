@@ -1,11 +1,11 @@
-let givenNum = parseInt(prompt("Introduce a whole number"));
+let givenNum = parseInt(prompt("Introduce a whole number"))
 
 if (!isNaN(givenNum)) {
     if (givenNum % 2 === 0) {
-        alert(`${givenNum} is even`);
+        alert(`${givenNum} is even`)
     } else {
-        alert(`${givenNum} is odd`);
+        alert(`${givenNum} is odd`)
     }
 } else {
-    alert("Please, introduce a valid number");
+    alert("Please, introduce a valid number")
 }

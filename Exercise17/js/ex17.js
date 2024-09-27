@@ -3,7 +3,7 @@ let timesIntroduced18 = 0
 
 while (i < 5){
     const givenAge = Number(prompt("What is your age?"))
-    if (isNaN(givenAge) || givenAge % 1 !==0 || givenAge < 0){
+    if (isNaN(givenAge) || givenAge % 1 !== 0 || givenAge < 0){
         alert("Please enter a valid age")
     }else if (givenAge >= 18){
         timesIntroduced18++
